@@ -8,7 +8,7 @@ void main(){
 
   printf("enter any value\n");
 
-  for(input; (input = getchar()) != '\n'; arr{LIMIT]++){
+  for(input; (input = getchar()) != '\n'; arr[LIMIT]++){
     arr[LIMIT] = input;
     putchar(input);
   }
