@@ -1,14 +1,15 @@
 #include <stdio.h>
 
+#define LIMIT 100
+
 void main(){
   char input;
-  int i=0;
-  char arr[i];
+  char arr[LIMIT];
 
   printf("enter any value\n");
 
-  for(input; (input = getchar()) != '\n'; i++){
-    arr[i] = input;
+  for(input; (input = getchar()) != '\n'; arr{LIMIT]++){
+    arr[LIMIT] = input;
     putchar(input);
   }
 
