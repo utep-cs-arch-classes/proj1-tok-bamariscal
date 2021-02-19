@@ -1,6 +1,6 @@
 Project 1: Tokenizer
 ====================
-The tokenizer will take in a string of characters representing a string and return an array of pointers to each individual word. The tokenizer will also maintain a history, so that the user can select from the set of previously input strings to tokenize without having to retype the string.
+The tokenizer will take in a string of characters and return an array of pointers to each word. The tokenizer will also keep a history, so that the user can choose from previous inputs strings to tokenize without having to retype the string.
 
 # Instructions:
 
