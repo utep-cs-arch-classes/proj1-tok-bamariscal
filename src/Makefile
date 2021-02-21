@@ -1,11 +1,12 @@
-main: tokenizer.o gui.o
+main:tokenizer.o gui.o
 	cc -o test tokenizer.o gui.o
 	./test
 
-tokenizer.o: tokenizer.c tokenizer.h
+tokenizer.o:tokenizer.c tokenizer.h
 	gcc -c tokenizer.c
 
-gui.o: gui.c tokenizer.h
+gui.o:gui.c tokenizer.h
 	gcc -c gui.c
 
-clean: rm -f test *.o *~ *#
+clean:
+	rm -f test *.o *~ *#
