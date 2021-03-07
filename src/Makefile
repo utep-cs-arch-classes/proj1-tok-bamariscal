@@ -1,6 +1,5 @@
 main:tokenizer.o gui.o
 	cc -o test tokenizer.o gui.o
-	./test
 
 tokenizer.o:tokenizer.c tokenizer.h
 	gcc -c tokenizer.c
