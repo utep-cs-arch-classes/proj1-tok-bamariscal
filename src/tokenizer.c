@@ -50,5 +50,21 @@ int count_words(char *str){//the number of words in s
   }
   return count;
 }
+
+char *copy_str(char *inStr, short len){
+
+}
+
+char **tokenize(char *str){
+
+}
+
+void print_tokens(char **tokens){
+
+}
+
+void free_tokens(char **tokens){
+
+}
   
 
