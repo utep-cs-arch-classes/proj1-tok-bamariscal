@@ -1,4 +1,4 @@
-main:tokenizer.o gui.o
+main:tokenizer.o gui.o history.o
 	cc -o test tokenizer.o gui.o history.o
 
 tokenizer.o:tokenizer.c tokenizer.h
