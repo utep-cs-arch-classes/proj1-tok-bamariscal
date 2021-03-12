@@ -47,13 +47,7 @@ void print_history(List *list){
 }
 
 void free_history(List * list){
-  Item *current = list-> root;
-  Item *next;
-  while(current != NULL){
-    next = current ->next;
-    free(current ->str);
-    free(current);
-    current = next;
-  }
+  free(list);
+  
 }
 
