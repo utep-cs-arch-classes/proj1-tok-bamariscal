@@ -17,6 +17,9 @@ This project requires mutiple files to run
 
 **make clean:** cleans directory from all .o ~ and # files
 
+tokenizer.c
+====================
+
 space_char and non_space_char
 ---------------	
 **space_char**
@@ -37,3 +40,22 @@ count_words
 ---------------	
 **count_words**
 - count the amount of words that are in the pointer
+
+copy_str
+---------------
+**copy_str**
+- copy a pointer into a new pointer in order to know how many chars to copy cased on input integer
+
+tokenize
+---------------
+**tokenize**
+- allocate new memory for double pointer using count_words. Using the word_start and and stop at word_end
+
+fee_tokens
+---------------
+**free_tokens**
+- Free all tokens allocated in double pointer using free method
+
+
+history.c
+====================
