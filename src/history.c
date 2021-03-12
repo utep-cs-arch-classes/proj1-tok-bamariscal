@@ -6,7 +6,7 @@ List *init_history(){
 
   List *history = (List*) malloc(sizeof(List));
   history -> root = (Item*)malloc(sizeof(Item));
-  history -> root -> id = -1;
+  history -> root -> id = NULL;
   return history;
    
 }
@@ -15,14 +15,14 @@ void add_history(List *list, char *str){
 
   int count = 0;
   Item *current = list ->root;
-  while(current ->id !=-1){
+  while(current ->id !=NULL){
     current = current -> next;
     count++;
   }
   current -> id = count;
   current -> str = str;
   current -> next = (Item*)malloc(sizeof(Item));
-  current -> next -> id = -1;
+  current -> next -> id = NULL;
   
 }
 
