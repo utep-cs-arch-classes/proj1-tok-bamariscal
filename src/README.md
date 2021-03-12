@@ -49,7 +49,7 @@ copy_str
 tokenize
 ---------------
 **tokenize**
-- allocate new memory for double pointer using count_words. Using the word_start and and stop at word_end
+- allocate new memory for double pointer. Using the word_start and and stop at word_end
 
 fee_tokens
 ---------------
