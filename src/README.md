@@ -59,3 +59,24 @@ fee_tokens
 
 history.c
 ====================
+
+init_history
+---------------	
+
+
+add_history
+---------------	
+
+
+get_history
+---------------	
+
+
+print_history
+---------------	
+
+
+free_history
+---------------	
+
+
