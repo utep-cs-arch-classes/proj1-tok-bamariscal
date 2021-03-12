@@ -16,3 +16,12 @@ This project requires mutiple files to run
   - the output is named test
 
 **make clean:** cleans directory from all .o ~ and # files
+
+space_char and non_space_char
+---------------	
+**space_char**
+- returns true if there is a space char
+
+**non_space_char**
+- retuns true if there is a non space char
+
