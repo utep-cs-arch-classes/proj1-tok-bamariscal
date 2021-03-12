@@ -48,7 +48,6 @@ int count_words(char *str){//the number of words in s
     str = word_end(str);
     count++;
   }
-  printf("There is %d words in the input", count);
   return count;
 }
 
