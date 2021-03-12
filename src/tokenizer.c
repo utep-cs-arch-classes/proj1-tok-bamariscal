@@ -75,17 +75,17 @@ char **tokenize(char *str){//returns allocated new zero-terminated vector  of al
   int length =0;
 
   s = word_start(str);
-  int read = 0;
-  while(count_words(str)>=read){
+  int i = 0;
+  while(count_words(str)>=i){
     e = word_end(s);
     length = e-s;
-    t[read] =copy_str(s,length);
+    t[i] =copy_str(s,length);
     s = word_start(e);
 
-    if(read==count_words(str)){
-      t[read] = "\0";
+    if(i==count_words(str)){
+      t[i] = "\0";
     }
-    read++;
+    i++;
   }
   return t;
 }
