@@ -62,21 +62,24 @@ history.c
 
 init_history
 ---------------	
+- create an empty list then allocate space for it. Same thing for Item
 
 
 add_history
 ---------------	
+- add data into list. Check if list is not empty, if its empty then,
+- populate list
 
 
 get_history
 ---------------	
-
+- return specific node data(Ex: Hello world) index 0 is hello
 
 print_history
 ---------------	
+- print content of each node as long as its not NULL
 
 
 free_history
 ---------------	
-
-
+- same as free token
