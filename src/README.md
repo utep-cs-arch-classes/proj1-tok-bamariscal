@@ -44,12 +44,12 @@ count_words
 copy_str
 ---------------
 **copy_str**
-- copy a pointer into a new pointer in order to know how many chars to copy cased on input integer
+- copy a pointer into a new pointer in order to know how many chars to copy based on input integer
 
 tokenize
 ---------------
 **tokenize**
-- allocate new memory for double pointer using count_words. Using the word_start and and stop at word_end
+- allocate new memory for double pointer. Using the word_start and and stop at word_end
 
 fee_tokens
 ---------------
