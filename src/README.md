@@ -5,11 +5,11 @@ The tokenizer will take in a string of characters and return an array of pointer
 Run Program
 ---------------
 This project requires mutiple files to run
--gui.c
--history.c
--history.h
--tokenizer.c
--tokenizer.h
+- gui.c
+- history.c
+- history.h
+- tokenizer.c
+- tokenizer.h
 
 ### Commands:
 **make:** Compiles tokenizer.c and gui.c  
