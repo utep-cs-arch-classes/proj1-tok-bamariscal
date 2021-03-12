@@ -25,3 +25,10 @@ space_char and non_space_char
 **non_space_char**
 - retuns true if there is a non space char
 
+word_start and word_end
+---------------	
+**word_start**
+- find first char in our string. If the first char is not a space then we return a value
+
+**word_end**
+- get the last non space char in pointer. Traverse pointer until we find teh at the next index is '\0'
