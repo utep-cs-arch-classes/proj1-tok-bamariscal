@@ -44,7 +44,7 @@ count_words
 copy_str
 ---------------
 **copy_str**
-- copy a pointer into a new pointer in order to know how many chars to copy cased on input integer
+- copy a pointer into a new pointer in order to know how many chars to copy based on input integer
 
 tokenize
 ---------------
