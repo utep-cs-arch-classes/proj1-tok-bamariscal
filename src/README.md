@@ -14,4 +14,5 @@ This project requires mutiple files to run
 ### Commands:
 **make:** Compiles tokenizer.c, gui.c, and history.c
   - the output is named test
+
 **make clean:** cleans directory from all .o ~ and # files
