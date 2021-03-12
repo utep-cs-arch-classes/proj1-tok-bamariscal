@@ -12,5 +12,6 @@ This project requires mutiple files to run
 - tokenizer.h
 
 ### Commands:
-**make:** Compiles tokenizer.c and gui.c  
+**make:** Compiles tokenizer.c, gui.c, and history.c
+  - the output is named test
 **make clean:** cleans directory from all .o ~ and # files
