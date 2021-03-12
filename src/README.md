@@ -33,5 +33,7 @@ word_start and word_end
 **word_end**
 - get the last non space char in pointer. Traverse pointer until we find teh at the next index is '\0'
 
+count_words
+---------------	
 **count_words**
 - count the amount of words that are in the pointer
