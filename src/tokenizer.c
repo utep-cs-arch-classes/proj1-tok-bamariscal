@@ -101,7 +101,6 @@ void print_tokens(char **tokens){//print tokens
 void free_tokens(char **tokens){//free tokens and vectors
 
   free(tokens);
-  tokens = NULL;
 
 }
   
